@@ -40,6 +40,7 @@ public class Task_3_29 {
 				for (int s=0; s<=size-3; s++) {
 					System.out.print ("  ");
 							}
+                                //
 				System.out.println (" *");
 				}
 			}
