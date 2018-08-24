@@ -18,18 +18,22 @@ public class Task_6 {
         // TODO code application logic here
         int devider;
         int perfect;
-        int sum_of_deviders=0;
-        for (int i =2; i<=10; i++){
-            System.out.println("i is " + i);
+        System.out.println("The perfect numbers from 1 to 10000 are:");
+            for (int i =2; i<=10000; i++){
+            int sum_of_deviders=0;
+           // System.out.println("i is " + i);
             for (int j = 1; j<i; j++){
-                System.out.println("j is " + j);
+               // System.out.println("j is " + j);
                      if (j<i){ 
                     if (i%j==0){
                     devider = j;
-                        System.out.println("devider is " + devider);
+                       // System.out.println("devider is " + devider);
                         
                         sum_of_deviders += devider;
-                        System.out.println("sum is " + sum_of_deviders);
+                       // System.out.println("sum is " + sum_of_deviders);
+                           if (sum_of_deviders==i && devider==i/2 ){
+                               System.out.println(sum_of_deviders);
+                           }
                     }              
     }  
 }
