@@ -3,20 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package basic_task_1;
+package basics_task_2;
 
 /**
  *
  * @author User
  */
-public class Basic_Task_1 {
+public class Basics_Task_2 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("I fucking hate pikeys");
     }
     
 }
