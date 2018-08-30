@@ -25,8 +25,7 @@ public class Flow_Control_Task_1 {
             }
             else if (number == 999){
                 i=number;
-                
-            }
+                }
             else{ 
                 System.out.println(number + " is a odd number");
             }
