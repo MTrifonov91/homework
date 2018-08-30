@@ -25,7 +25,7 @@ public class Data_Types_Task_6 {
         String adjective = in.nextLine();
         System.out.println("Enter a past tense verb");
         String verb = in.nextLine();
-        System.out.println("On a full moon night in the rain");
+        System.out.println("On a full moon in the rain");
         System.out.println("The mighty " + firstNoun + " starts the chase");
         System.out.println("All the " + secondNoun + " start to prey");
         System.out.println("Their " + adjective + " lives will erase");
