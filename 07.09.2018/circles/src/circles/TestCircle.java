@@ -3,25 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tiptopbakery;
+package circles;
 
 /**
  *
  * @author User
  */
-public class TestBread {
+public class TestCircle {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Bread Rye = new Bread ("rye", 56.50);
-        System.out.println(Rye);
-        Bread Yeast = new Bread ("yeast", 70.20);
-        System.out.println(Yeast);
-        Bread White = new Bread ("white", 75.55);
-        System.out.println(White);
+        Circle small = new Circle(0,0,0);
+        Circle medium = new Circle(0,0,0);
+        Circle big = new Circle(0,0,0);
+        Circle huge = new Circle(0,0,0);
+        System.out.println(small + "\n" + medium + "\n" + big + "\n" + huge);
         
         
     }
