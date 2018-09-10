@@ -31,7 +31,7 @@ public class Student {
         this.points = points;
     }
     public void setgradePointAverage (double gradePointAverage){
-        this.gradePointAverage = creditHours/points;
+        this.gradePointAverage = (double) creditHours/ (double) points;
     }
     public int getidNUmber(){
         return idNUmber;

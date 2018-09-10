@@ -37,9 +37,6 @@ public class Flow_Control_Task_9 {
                 System.out.println("Total = " + total);    
                 }
            }
-            else{
-                
-            }
         }
         
     }
