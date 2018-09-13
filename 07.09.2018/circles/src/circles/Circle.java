@@ -47,7 +47,7 @@ public class Circle {
 
     @Override
     public String toString() {
-        return "Circle{" + "radius=" + radius + ", diameter=" + diameter + ", area=" + area + '}';
+        return "Circle" + Circle.class + "{" + "radius=" + radius + ", diameter=" + diameter + ", area=" + area + '}';
     }
     
     
