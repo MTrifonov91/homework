@@ -30,13 +30,13 @@ public class Flow_Control_Task_4 {
         for (int i = 0; i < 3; i++){
             switch (i){
                 case (0):
-                    rand1 = 1;//(int)(Math.random()*range) + min;
+                    rand1 = (int)(Math.random()*range) + min;
                     break;
                 case (1):
-                    rand2 = 1;//(int)(Math.random()*range) + min;
+                    rand2 = (int)(Math.random()*range) + min;
                     break;
                 case (2):
-                    rand3 = 1;//(int)(Math.random()*range) + min;
+                    rand3 = (int)(Math.random()*range) + min;
                     break;
             }
         }
