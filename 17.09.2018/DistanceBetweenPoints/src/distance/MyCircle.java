@@ -10,5 +10,20 @@ package distance;
  * @author User
  */
 public class MyCircle {
+    private MyPoint center;
+    private int radius = 1;
+    
+    public MyCircle() {
+        
+    }
+    
+    public MyCircle(int x, int y, int radius) {
+       this.center = center;
+       this.radius = radius;
+        
+    }
+    
+    
+    
     
 }
