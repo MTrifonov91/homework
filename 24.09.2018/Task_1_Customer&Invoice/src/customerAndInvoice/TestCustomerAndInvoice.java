@@ -16,7 +16,9 @@ public class TestCustomerAndInvoice {
         System.out.println(george);
         
         Invoice first = new Invoice(64168186, george, 500);
-        System.out.println(first);    
+        System.out.println(first);   
+        
+        
     }
     
 }
